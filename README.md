@@ -21,7 +21,7 @@
 
   2. ブラウザで以下のURLを開く
 
-    http://localhost:4567
+    [http://localhost:4567](http://localhost:4567)
 
   3. sourceディレクトリかdataディレクトリ内のファイルを修正
 
