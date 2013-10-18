@@ -15,4 +15,11 @@
     %meta(name="viewport" content="width=device-width")
 
   %body{class: page_classes}
-    = yield
+    %header#header
+      = partial "header"
+
+    #main
+      = yield
+
+    %footer#footer
+      = partial "footer"
