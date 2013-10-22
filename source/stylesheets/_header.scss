@@ -1,4 +1,9 @@
+@import 'color';
+
 #header {
+  overflow: hidden;
+  background-color: $layout-framecolor;
+
   h1 {
     padding-left: 15px;
     color: gray;

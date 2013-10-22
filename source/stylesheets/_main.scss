@@ -1,5 +1,7 @@
+@import 'color';
+
 #main {
-  background: #fcfcfc;
+  background: $layout-basecolor;
   padding: 10px;
 
   .content {
