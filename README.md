@@ -33,12 +33,18 @@
         git commit -m "どれそれ修正"
         git push origin master
 
-### デプロイ
+### ビルド
+
+デプロイせずにHTMLなどを生成したいとき用。普段は自動でビルドされるため不要
 
   1. 以下のコマンドでHTMLなどをbuildディレクトリ内に生成
 
         middleman build
 
-  2. 以下のコマンドでGitHub Pagesにデプロイ
+### デプロイ
+
+自動でビルドしてからデプロイされるよう`config.rb`で設定済み。
+
+  1. 以下のコマンドでGitHub Pagesにデプロイ
 
         middleman deploy
