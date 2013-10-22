@@ -15,6 +15,9 @@
 
 ### 修正
 
+必要に応じて、修正前に`git fetch origin`からの`git merge origin/master`
+などでサーバーの最新版を持って来る。
+
   1. 以下のコマンドでローカルにサーバーを立ち上げ
 
         middleman server
