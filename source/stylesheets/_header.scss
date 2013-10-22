@@ -2,37 +2,50 @@
 
 #header {
   overflow: hidden;
-  background-color: $layout-framecolor;
 
   h1 {
-    padding-left: 15px;
-    color: gray;
+    position: fixed;
+    margin: 0 30px;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    color: $h1-color;
+    background-color: $h1-bgcolor;
+    border-right: 2px solid $h1-shadow-color;
+    border-bottom: 2px solid $h1-shadow-color;
   }
 
   .nav {
-    background-color: rgba(255, 255, 255, 0.3);
+    clear: both;
+    width: 100%;
     border: 1px solid;
-    border-color: #d3d3d3;
+    border-color: rgba(255, 255, 255, 0.3);
 
     &, ul {
+      float: right;
       margin: 0;
-      padding: 0;
+      padding: 2px 3px;
     }
 
     li {
       list-style: none;
       display: inline-block;
-      margin-right: -4px;
-      border-right: 1px solid;
-      border-color: #d3d3d3;
+      margin-right: 4px;
     }
 
     a {
       display: block;
-      padding: 12px;
+      padding: 5px;
+      border: 1px solid;
+      border-color: #d3d3d3;
+      color: #ccc;
 
       &:hover {
-        background-color: rgba(255, 255, 255, 0.5);
+        border-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.9);
+        color: rgba(0, 0, 0, 0.5);
       }
     }
   }
