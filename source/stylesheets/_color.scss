@@ -1,6 +1,8 @@
-$main-color: #930;
-$base-color: #fcfcfc;
+$dark-color : #003149;
+$main-color : #00496E;
+$light-color: #006EA5;
+$base-color : #CBE6F3;
 
-$h1-color: #633;
-$h1-bgcolor: #f99;
-$h1-shadow-color: $h1-bgcolor - #333;
+$h1-color: rgba(255, 255, 255, 0.8);
+$h1-bgcolor: rgba(0, 0, 0, 0.6);
+$h1-shadow-color: rgba(0, 0, 0, 0.8);
