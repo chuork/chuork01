@@ -96,6 +96,7 @@ GEM
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    vendorer (0.1.14)
 
 PLATFORMS
   ruby
@@ -105,4 +106,5 @@ DEPENDENCIES
   middleman-deploy
   middleman-livereload
   redcarpet
+  vendorer
   wdm (~> 0.1.0)
