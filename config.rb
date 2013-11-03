@@ -62,6 +62,10 @@ set :markdown, :tables             => true,
                :with_toc_data      => true,
                :smartypants        => true
 
+configure :development do
+  set :debug_assets, true
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
