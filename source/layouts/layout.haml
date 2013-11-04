@@ -18,7 +18,8 @@
       = partial "layouts/header"
 
     #main
-      = yield
+      %article.content
+        = yield
 
     %footer#footer
       = partial "layouts/footer"
