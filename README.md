@@ -1,4 +1,6 @@
-# 札幌市中央区Ruby会議
+# 札幌市中央区Ruby会議01
+
+http://regional.rubykaigi.org/chuork01/
 
 ## 実行委員向け
 
