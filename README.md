@@ -22,7 +22,7 @@ http://regional.rubykaigi.org/chuork01/
 
   1. 以下のコマンドでローカルにサーバーを立ち上げ
 
-        middleman server
+        bundle exec middleman server
 
   2. ブラウザで以下のURLを開く
 
@@ -44,7 +44,7 @@ http://regional.rubykaigi.org/chuork01/
 
   1. 以下のコマンドでHTMLなどをbuildディレクトリ内に生成
 
-        middleman build
+        bundle exec middleman build
 
 ### デプロイ
 
@@ -52,4 +52,4 @@ http://regional.rubykaigi.org/chuork01/
 
   1. 以下のコマンドでGitHub Pagesにデプロイ
 
-        middleman deploy
+        bundle exec middleman deploy
