@@ -1,25 +1,25 @@
 !!!
 
-%html(lang="ja")
+%html(lang='ja')
   %head
-    %meta(charset="utf-8")
+    %meta(charset='utf-8')
 
     -# Always force latest IE rendering engine or request Chrome Frame
-    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+    %meta(content='IE=edge,chrome=1' http-equiv='X-UA-Compatible')
 
     %title= [current_page.data.title, '札幌市中央区Ruby会議01'].compact.join(' - ')
 
-    = stylesheet_link_tag "chuork01"
+    = stylesheet_link_tag 'chuork01'
 
-    %meta(name="viewport" content="width=device-width")
+    %meta(name='viewport' content='width=device-width')
 
   %body{class: page_classes}
     %header#header
-      = partial "layouts/header"
+      = partial 'layouts/header'
 
     #main
       %article.content
         = yield
 
     %footer#footer
-      = partial "layouts/footer"
+      = partial 'layouts/footer'
