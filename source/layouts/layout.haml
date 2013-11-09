@@ -14,6 +14,9 @@
     %meta(name='viewport' content='width=device-width')
 
   %body{class: page_classes}
+    /[if lte IE 8]
+      = partial 'layouts/unsupported_browser_warning'
+
     %header#header
       = partial 'layouts/header'
 
