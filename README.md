@@ -15,6 +15,11 @@ http://regional.rubykaigi.org/chuork01/
         cd chuork01
         bundle install
 
+  3. Node.jsをインストール（Mac OS X、Windowsは不要）
+
+        # aptの例
+        sudo apt-get install nodejs
+
 ### 修正
 
 必要に応じて、修正前に`git fetch origin`からの`git merge origin/master`
