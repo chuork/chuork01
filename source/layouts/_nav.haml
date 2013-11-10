@@ -1,7 +1,7 @@
+:ruby
+  menu = %w(参加登録 開催概要 開催要項 タイムテーブル 講演詳細 懇親会について LTについて)
+
 %ul
-  %li
-    = link_to 'ホーム', '/index.html'
-  %li
-    = link_to '開催概要', '/summary.html'
-  %li
-    = link_to 'タイムテーブル', '/timetable.html'
+  - menu.each_with_index do |title, i|
+    %li
+      = link_to title, "#toc_#{i}"
