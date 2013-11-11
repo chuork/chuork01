@@ -1,8 +1,13 @@
 $dark-color : #003149;
-$main-color : #CFCFCF;
+$main-color : #00012A;
 $light-color: #006EA5;
 $base-color : #CBE6F3;
 
 $h1-color: rgba(0, 0, 29, 0.8);
-$h1-bgcolor: rgba(252, 253, 249, 0.5);
+$h1-bgcolor: rgba(252, 253, 249, 0.8);
 $h1-shadow-color: rgba(0, 0, 0, 0.4);
+
+@mixin gradient_top_to_bottom($top, $bottom) {
+  background: -moz-linear-gradient(top, $top, $bottom);
+  background: -webkit-gradient(linear, left top, left bottom, from($top), to($bottom));
+}
