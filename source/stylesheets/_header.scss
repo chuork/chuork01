@@ -1,11 +1,11 @@
 @import 'color';
 
 #header {
-  overflow: hidden;
+  position: fixed;
+  top: 10px;
+  right: 30px;
 
   h1 {
-    position: fixed;
-    margin: 0 30px;
     width: 350px;
     height: 50px;
     line-height: 50px;
@@ -20,8 +20,6 @@
   .nav {
     clear: both;
     width: 100%;
-    border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.3);
 
     &, ul {
       float: right;
@@ -31,21 +29,22 @@
 
     li {
       list-style: none;
-      display: inline-block;
       margin-right: 4px;
     }
 
+    $nav-color: $h1-color;
     a {
       display: block;
       padding: 5px;
       border: 1px solid;
-      border-color: #d3d3d3;
-      color: #ccc;
+      border-color: $nav-color;
+      background-color: rgba(184, 184, 210, 0.8);
+      color: $nav-color;
 
       &:hover {
         border-color: rgba(255, 255, 255, 0.9);
-        background-color: rgba(255, 255, 255, 0.9);
-        color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgba(0, 0, 0, 0.7);
       }
     }
   }

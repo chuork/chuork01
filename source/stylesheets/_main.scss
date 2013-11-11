@@ -2,10 +2,13 @@
 
 #main {
   background: $base-color;
+  background-image: url(../images/snow.png);
+  background-size: 400px 400px;
   padding: 10px;
 
   .content {
+    background-color: rgba(255, 255, 255, 0.7);
     margin: 5px;
-    padding: 5px;
+    padding: 5px 160px 10px 20px;
   }
 }
