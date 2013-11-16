@@ -1,12 +1,7 @@
 @import 'color';
 
 #main {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  background: $base-color;
-  background-image: image-url('snow.png');
-  background-size: 400px 400px;
-
-  .content {
+  article {
     background-color: rgba(255, 255, 255, 0.7);
     margin: 0 30px;
     padding: 5px 140px 10px 20px;

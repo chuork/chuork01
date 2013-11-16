@@ -18,12 +18,13 @@
     /[if lte IE 8]
       = partial 'layouts/unsupported_browser_warning'
 
-    %header#header
-      = partial 'layouts/header'
+    .content
+      %header#header
+        = partial 'layouts/header'
 
-    #main
-      %article.content
-        = yield
+      #main
+        %article
+          = yield
 
     %footer#footer
       = partial 'layouts/footer'

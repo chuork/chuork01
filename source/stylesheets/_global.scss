@@ -4,11 +4,18 @@ body {
   background: $main-color;
 }
 
+.content {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background: $base-color;
+  background-image: image-url('snow.png');
+  background-size: 400px 400px;
+}
+
 a {
   text-decoration: none;
 }
 
-span.ruby {
+.ruby {
   color: #ee0000;
 }
 
