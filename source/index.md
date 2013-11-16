@@ -25,7 +25,7 @@
 [Ruby札幌]: http://ruby-sapporo.org/
 [#chuork01]: https://twitter.com/search?q=%23chuork
 
-### 札幌市中央区Ruby会議01 って? {#what-is}
+### 札幌市中央区Ruby会議01 って? {#what-is-chuork01}
 {:.no_toc}
 
 「札幌市中央区Ruby会議」 は、札幌でRubyを使っているひとのための地域Ruby会議です。
