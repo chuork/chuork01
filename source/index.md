@@ -1,3 +1,6 @@
+* TOC
+{:toc #nav}
+
 ## 参加登録 {#registration}
 
 以下の参加登録フォームよりご登録ください:
@@ -22,7 +25,8 @@
 [Ruby札幌]: http://ruby-sapporo.org/
 [#chuork01]: https://twitter.com/search?q=%23chuork
 
-## 札幌市中央区Ruby会議01 って? {#what-is}
+### 札幌市中央区Ruby会議01 って? {#what-is}
+{:.no_toc}
 
 「札幌市中央区Ruby会議」 は、札幌でRubyを使っているひとのための地域Ruby会議です。
 

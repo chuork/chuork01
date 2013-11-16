@@ -1,32 +1,21 @@
 @media only screen and (max-width: 600px) {
-  #header {
-    .nav {
-      position: relative;
-      top: 0px;
-      right: 0px;
+  #nav {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: left;
+    margin: 2px;
 
-      & .link-to-top {
-        position: fixed;
-        right: 5px;
-        bottom: 5px;
-      }
+    li {
+      float: left;
+      list-style: none;
+      margin-right: 0;
+      width: 150px;
+    }
 
-      &, ul {
-        float: left;
-        margin: 2px;
-      }
-
-      li {
-        float: left;
-        list-style: none;
-        margin-right: 0;
-        width: 150px;
-      }
-
-      a {
-        display: block;
-        padding: 10px;
-      }
+    a {
+      display: block;
+      padding: 10px;
     }
   }
 
