@@ -1,4 +1,4 @@
-## 参加登録
+## 参加登録 {#registration}
 
 以下の参加登録フォームよりご登録ください:
 
@@ -6,7 +6,7 @@
 * LT申し込み: 近日公開予定
 * 懇親会: 近日公開予定
 
-## 開催概要
+## 開催概要 {#abstract}
 
 * 日時: 2014/2/8(土) 13:00 〜 18:00 (開場: 12:30)
 * 会場: [かでる2・7][] - ([地図](https://maps.google.co.jp/maps?q=43.063107,141.345473&num=1&brcurrent=3,0x5f0b2997c2c14ff7:0x9db606f6a754b30b,0&t=m&z=18))
@@ -22,7 +22,7 @@
 [Ruby札幌]: http://ruby-sapporo.org/
 [#chuork01]: https://twitter.com/search?q=%23chuork
 
-## 札幌市中央区Ruby会議01 って?
+## 札幌市中央区Ruby会議01 って? {#what-is}
 
 「札幌市中央区Ruby会議」 は、札幌でRubyを使っているひとのための地域Ruby会議です。
 
@@ -38,15 +38,15 @@
 
 という方はぜひお越しくださいませ！
 
-## タイムテーブル
+## タイムテーブル {#timetable}
 
 (近日公開予定)
 
-## 講演詳細
+## 講演詳細 {#talks}
 
 (近日公開予定)
 
-## 懇親会について
+## 懇親会について {#party}
 
 * 日時: 2014/2/8(土) 19:00 〜 21:30
 * 会場: [北の笑美食 いなせや][] - ([地図](https://maps.google.co.jp/maps?q=43.058921,141.350218&num=1&brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&t=m&z=19))
@@ -60,7 +60,7 @@
 
 * 近日公開予定
 
-## LT (Lightning Talk) について
+## LT (Lightning Talk) について {#lt}
 
 [Lightning Talk](http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF) を発表してみたい方を募集しています。<br>
 Lightning Talk とは、5分間プレゼンテーションです。<br>
