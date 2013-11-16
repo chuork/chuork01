@@ -60,11 +60,13 @@
 
 * 近日公開予定
 
-## LT (Lightning Talk) について {#lt}
+## LT について {#lt}
 
-[Lightning Talk](http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF) を発表してみたい方を募集しています。<br>
+LT ([Lightning Talk][]) を発表してみたい方を募集しています。<br>
 Lightning Talk とは、5分間プレゼンテーションです。<br>
 内容についてはなんでも構いません。
 普段興味あること・自己紹介・会社紹介などなど簡単な内容でも大歓迎ですので、ぜひこの機会にお話してみませんか？
+
+[Lightning Talk]: http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF
 
 * 近日公開予定
