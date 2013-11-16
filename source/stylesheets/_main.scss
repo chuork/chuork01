@@ -3,7 +3,7 @@
 #main {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   background: $base-color;
-  background-image: url(../images/snow.png);
+  background-image: image-url('snow.png');
   background-size: 400px 400px;
 
   .content {

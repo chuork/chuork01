@@ -2,7 +2,7 @@
 
 #header {
   background-color: $main-color;
-  background-image: url(../images/snow.png);
+  background-image: image-url('snow.png');
   overflow: hidden;
 
   h1 {
