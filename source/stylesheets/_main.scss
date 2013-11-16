@@ -1,10 +1,11 @@
 @import 'color';
 
 #main {
+  margin: 0 30px;
+
   article {
     background-color: rgba(255, 255, 255, 0.7);
-    margin: 0 30px;
-    padding: 5px 140px 10px 20px;
+    padding: 5px 20px 10px 20px;
   }
 }
 
