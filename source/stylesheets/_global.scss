@@ -13,6 +13,12 @@ body {
 
 a {
   text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    color: rgba($link-color, .9);
+    background-color: rgba(white, .5)
+  }
 }
 
 .ruby {
