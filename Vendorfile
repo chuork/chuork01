@@ -1,3 +1,7 @@
 folder 'source/stylesheets/vendor/' do
   file 'normalize.css', 'https://raw.github.com/necolas/normalize.css/master/normalize.css'
 end
+
+folder 'source/javascripts/vendor/' do
+  file 'jquery.js', 'http://code.jquery.com/jquery-2.0.3.js'
+end
