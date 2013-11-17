@@ -101,3 +101,8 @@ Lightning Talk とは、5分間プレゼンテーションです。<br>
 [Lightning Talk]: http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF
 
 * [LT参加登録](http://bit.ly/chuork01-lt)
+
+## お問い合わせ
+{:.no_toc}
+
+札幌市中央区Ruby会議01に関するお問い合せは tricknotes.rs \_at\_ gmail.com (佐藤)までメールにてご連絡ください。
