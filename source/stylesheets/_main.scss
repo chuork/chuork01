@@ -14,16 +14,19 @@
 }
 
 #nav {
+  &.fixed {
+    position: fixed;
+    top: 0;
+    right: 50px;
+  }
   $nav-color: rgba($h1-color, .7);
 
-  margin: 80px auto 10px;
-  position: fixed;
-  top: 10px;
-  right: 30px;
+  position: absolute;
+  margin: 0;
+  top: 100px;
+  right: 50px;
   clear: both;
-  width: auto;
   float: right;
-  padding: 2px 3px;
 
   li {
     list-style: none;
