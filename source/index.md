@@ -64,7 +64,18 @@
 
 ## 講演詳細 {#talks}
 
-(近日公開予定)
+### Rails あるある(仮) - 佐藤竜之介
+{:.no_toc #talk-tricknotes}
+
+Rails には便利な機能が数多く存在しますが、使い方を間違うと逆に開発/メンテナンスしづらいものとなってしまう機能も少なくありません。
+本発表では、私の体験をもとに Rails で開発を行なっていく中での Rails(や gem)の魅力的な機能とついついやってしまいがちな間違いを例に挙げつつ、
+メンテナンスしやすいコードについて考えてみます。
+
+![tricknotes](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/13508_374056796011580_1728315222_n.jpg)
+佐藤竜之介 ([@tricknotes](https://github.com/tricknotes))<br/>
+株式会社えにしテック所属。
+(TODO ほかは後で書く)
+{: .profile}
 
 ## 懇親会について {#party}
 
