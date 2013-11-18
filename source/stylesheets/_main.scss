@@ -44,7 +44,8 @@ $nav-padding: 0;
   a {
     display: block;
     padding: 5px;
-    border: 1px solid;
+    border: 1px;
+    border-style: none solid solid solid;
     border-color: $nav-color;
     background-color: rgba(194, 194, 210, 0.9);
     color: $nav-color;
