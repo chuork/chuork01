@@ -123,7 +123,7 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 
 私はRubyが好きで、毎晩のように使っています。ですが、Ruby on Railsはほとんど使っていません。この発表では、RubyをRuby on Railsと一緒にしか使ったことがない人を主な対象として、Rubyのいろいろな使い方を実演を交えながら紹介します。
 
-![myokoym](http://myokoym.net/public/profile-myokoym-chuork01.png)
+![myokoym](http://myokoym.net/public/profile-myokoym-chuork01.jpg)
 横山昌史 ([@myokoym](https://github.com/myokoym))<br>
 昼は金融系システムのSE、夜はフリーソフトウェアプログラマー。Ruby-GNOME2 Project Team、Ruby札幌、Sinatra札幌などに参加しています。([Twitter](https://twitter.com/myokoym))([slides](http://slide.rabbit-shocker.org/authors/myokoym/))
 {: .profile}
