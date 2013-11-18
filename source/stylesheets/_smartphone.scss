@@ -1,28 +1,38 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #nav {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    float: left;
-    margin: 2px;
-
-    li {
-      float: left;
-      list-style: none;
-      margin-right: 0;
-      width: 150px;
+    &.fixed {
+      left: 0;
     }
 
-    a {
-      display: block;
-      padding: 10px;
+    li {
+      margin-right: 0;
+      width: 33%;
     }
   }
 
   #main {
-    article {
-      margin: 0 10px;
-      padding: 5px 10px 10px 20px;
+    margin: 0 10px;
+
+    h2 {
+      padding: 60px 0 0 0;
     }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  #nav a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 499px) {
+  #nav a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  #nav a {
+    font-size: 10px;
   }
 }
