@@ -62,7 +62,7 @@
 |16:00-|Ruby in Project-Based Learning - @shouheiumemoto|
 |16:25-|(近日公開予定) - @tmaeda|
 |16:50-|休憩|
-|17:00-|[LT](#lt) [参加登録受付中](http://bit.ly/chuork01-lt)|
+|17:00-|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)|
 |18:00 |クロージング|
 
 ## 講演詳細 {#talks}
