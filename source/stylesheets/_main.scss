@@ -6,6 +6,7 @@ $nav-padding: 0;
 #main {
   margin: 0 30px;
   max-width: 900px;
+  font-size: 15px;
 
   article {
     background-color: rgba(255, 255, 255, 0.7);
@@ -21,6 +22,7 @@ $nav-padding: 0;
   }
 
   h2 {
+    font-size: 2em;
     padding-top: $nav-height;
   }
 }
