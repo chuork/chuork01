@@ -1,11 +1,11 @@
 $main-color: #00012A;
 
 $link-color: #1C2EB5;
-$h1-bgcolor: rgba(252, 253, 249, 0.8);
+$header-bgcolor: rgba(252, 253, 249, 0.8);
 
-$h1-color: rgba(0, 0, 29, 0.8);
-$h1-bgcolor: rgba(252, 253, 249, 0.8);
-$h1-shadow-color: rgba(0, 0, 0, 0.4);
+$header-color: rgba(0, 0, 29, 0.8);
+$header-bgcolor: rgba(252, 253, 249, 0.8);
+$header-shadow-color: rgba(0, 0, 0, 0.4);
 $border-color: rgba(63, 56, 54, 0.3);
 
 @mixin gradient-top-to-bottom($top, $bottom) {
