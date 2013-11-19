@@ -16,8 +16,11 @@ $nav-padding: 0;
     }
   }
 
-  h2 {
+  h1, h2, h3 {
     border-bottom: 1px solid $border-color;
+  }
+
+  h2 {
     padding-top: $nav-height;
   }
 }
