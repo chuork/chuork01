@@ -69,3 +69,20 @@ $nav-padding: 0;
     float: left;
   }
 }
+
+table {
+  width: 100%;
+
+  &, th, td {
+    border: 1px solid $border-color;
+  }
+
+  th, td {
+    padding: 9px;
+  }
+
+  th {
+    background-color: $link-color * 0.3;
+    color: $header-bgcolor * 0.9;
+  }
+}
