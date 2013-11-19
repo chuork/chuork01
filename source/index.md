@@ -47,23 +47,23 @@
 
 ## タイムテーブル {#timetable}
 
-|時間  |講演内容|
-|------|--------|
-|13:00-|開場|
-|13:20-|オープニング|
-|13:25-|Rails あるある(仮) - @tricknotes|
-|13:50-|休憩|
-|14:00-|ひでお(仮) - @niku|
-|14:25-|(近日公開予定) - @ursm|
-|14:50-|休憩|
-|15:00-|(近日公開予定) - @volpe28v|
-|15:25-|高架下のRuby（仮） - @myokoym|
-|15:50-|休憩|
-|16:00-|Ruby in Project-Based Learning - @shouheiumemoto|
-|16:25-|(近日公開予定) - @tmaeda|
-|16:50-|休憩|
-|17:00-|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)|
-|18:00 |クロージング|
+|時間 |講演内容|講演者|
+|-----|--------|------|
+|13:00|開場| |
+|13:20|オープニング| |
+|13:25|Rails あるある(仮)|[佐藤竜之介](#talk-tricknotes)|
+|13:50|休憩| |
+|14:00|ひでお(仮)|[ヽ（´・肉・｀）ノ](#talk-niku)|
+|14:25|(近日公開予定)|[浦嶌 啓太](#talk-ursm)|
+|14:50|休憩| |
+|15:00|趣味プロダクト開発で楽しいコードライフワークを送る|[小玉直樹](#talk-volpe_hd28v)|
+|15:25|高架下のRuby|[横山昌史](#talk-myokoym)|
+|15:50|休憩| |
+|16:00|Ruby in Project-Based Learning|@shouheiumemoto|
+|16:25|(近日公開予定)|@tmaeda|
+|16:50|休憩| |
+|17:00|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)| |
+|18:00|クロージング| |
 
 ## 講演詳細 {#talks}
 
@@ -77,7 +77,9 @@ Rails には便利な機能が数多く存在しますが、使い方を間違�
 ![tricknotes](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/13508_374056796011580_1728315222_n.jpg)
 佐藤竜之介 ([@tricknotes](https://github.com/tricknotes))<br/>
 株式会社えにしテック所属。
-(TODO ほかは後で書く)
+Ruby と JavaScript が好きなプログラマ。<br>
+[Rails](http://rubyonrails.org/) と [Ember.js](http://emberjs.com/) が好き。<br>
+詳しくはこちらで: [tricknotesのぼうけんのしょ](http://tricknotes.hateblo.jp/)
 {: .profile}
 
 ### ひでお(仮) - ヽ（´・肉・｀）ノ
@@ -97,6 +99,9 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 趣味ではRubyMotionやElixir,Haskell,Ember.jsに興味があってちょっとずつ触ってみたり調べたりしている。
 興味が薄く広く発散してしまっているので、対象を絞って知識を深めていかないとなあと考えているところ。
 {: .profile}
+
+### (近日公開予定) - 浦嶌 啓太
+{:.no_toc #talk-ursm}
 
 ### 趣味プロダクト開発で楽しいコードライフワークを送る - 小玉直樹
 {:.no_toc #talk-volpe_hd28v}
