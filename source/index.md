@@ -92,7 +92,6 @@ Ruby と JavaScript が好きなプログラマ。<br>
 
 ![niku](https://s.gravatar.com/avatar/a51816c3b11f79d9644a46105d513f1b.png)
 ヽ（´・肉・｀）ノ ([@niku](https://github.com/niku))<br/>
-
 Ruby札幌所属。心はコンサドーレ札幌所属。
 エディタはEmacsを利用している。
 仕事ではJVM系言語(Java,Groovy,Scala)でプログラミングしていることが多い。
@@ -102,6 +101,9 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 
 ### (近日公開予定) - 浦嶌 啓太
 {:.no_toc #talk-ursm}
+
+![ursm](https://secure.gravatar.com/avatar/fd547c9c121704eab28251f824bc2568.png)
+{: .profile}
 
 ### 趣味プロダクト開発で楽しいコードライフワークを送る - 小玉直樹
 {:.no_toc #talk-volpe_hd28v}
@@ -115,7 +117,6 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 
 ![volpe_hd28v](https://s.gravatar.com/avatar/d43ec41b7e9cbf51b42f5343ebe89ef4.png)
 小玉直樹 ([@volpe28v](https://github.com/volpe28v))<br/>
-
 トラスティア株式会社に所属するプログラマ。
 日々お仕事では Windows系のソフトウェア開発に携わる一方、夜な夜な「かんばんりすと」や「コタれん」などの趣味プロダクトの開発を楽しんでいます。
 コミュニティではアジャイル札幌、Ruby勉強会、JavaScript勉強会、C++勉強会などに時々参加しています。
