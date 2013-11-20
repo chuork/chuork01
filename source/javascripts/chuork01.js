@@ -26,7 +26,7 @@ jQuery(function($){
       $('#nav').hide();
       nav_will_hide = false;
     } else {
-      $('#nav').show();
+      $('#nav').fadeIn();
     }
   });
 });
