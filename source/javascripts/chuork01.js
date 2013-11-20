@@ -7,10 +7,8 @@ jQuery(function($){
   var scroll_top = 0;
   var nav_will_hide = false;
 
-  $(document).ready(function(){
-    $('table a').click(function(){
-      nav_will_hide = true;
-    });
+  $('table a').click(function(){
+    nav_will_hide = true;
   });
 
   $(document).scroll(function(){
