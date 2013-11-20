@@ -5,6 +5,13 @@
 jQuery(function($){
   var nav_offset = $('#nav').offset().top;
   var scroll_top = 0;
+  var nav_will_hide = false;
+
+  $(document).ready(function(){
+    $('table a').click(function(){
+      nav_will_hide = true;
+    });
+  });
 
   $(document).scroll(function(){
     scroll_top = $(this).scrollTop();
@@ -15,6 +22,13 @@ jQuery(function($){
     } else if (nav_offset >= scroll_top) {
       $('article').removeClass('adjustment')
       $('#nav').removeClass('fixed');
+    }
+
+    if (nav_will_hide) {
+      $('#nav').hide();
+      nav_will_hide = false;
+    } else {
+      $('#nav').show();
     }
   });
 });
