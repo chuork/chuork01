@@ -19,7 +19,6 @@
     %title= [current_page.data.title, '札幌市中央区Ruby会議01'].compact.join(' - ')
 
     = stylesheet_link_tag 'chuork01'
-    = javascript_include_tag 'chuork01'
 
     %meta(name='viewport' content='width=device-width')
 
@@ -39,5 +38,6 @@
     %footer#footer
       %p &copy; 2013 札幌市中央区Ruby会議01実行委員会
 
+    = javascript_include_tag 'chuork01'
     :javascript
       mixpanel.track('website');
