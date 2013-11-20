@@ -15,10 +15,10 @@ jQuery(function($){
     scroll_top = $(this).scrollTop();
 
     if (nav_offset <= scroll_top) {
-      $('article').addClass('adjustment')
+      $('article').addClass('adjustment');
       $('#nav').addClass('fixed');
     } else if (nav_offset >= scroll_top) {
-      $('article').removeClass('adjustment')
+      $('article').removeClass('adjustment');
       $('#nav').removeClass('fixed');
     }
 
