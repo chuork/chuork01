@@ -17,7 +17,7 @@ jQuery(function($){
     if (nav_offset <= scroll_top) {
       $('article').addClass('adjustment');
       $('#nav').addClass('fixed');
-    } else if (nav_offset >= scroll_top) {
+    } else {
       $('article').removeClass('adjustment');
       $('#nav').removeClass('fixed');
     }
