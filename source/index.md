@@ -15,21 +15,7 @@
 
 ## 開催概要 {#abstract}
 
-* 日時: 2014/2/8(土) 13:00 〜 18:00 (開場: 12:30)
-* 会場: [かでる2・7][] ([地図](https://maps.google.co.jp/maps?q=43.063107,141.345473&num=1&brcurrent=3,0x5f0b2997c2c14ff7:0x9db606f6a754b30b,0&t=m&z=18))
-* 参加費用: 1,000 円 (会場にてお支払いください)
-* 主催: 札幌市中央区Ruby会議01実行委員
-* 後援: [日本Rubyの会][]、[Ruby札幌][]
-* 定員: 40 名
-* 懇親会: 19:00 〜 [詳細](#party)
-* 公式ハッシュタグ: [#chuork01][]
-
-[かでる2・7]: http://homepage.kaderu27.or.jp/
-[日本Rubyの会]: http://ruby-no-kai.org/
-[Ruby札幌]: http://ruby-sapporo.org/
-[#chuork01]: https://twitter.com/search?q=%23chuork
-
-### 札幌市中央区Ruby会議01 って? {#what-is-chuork01}
+### 開催趣意
 {:.no_toc}
 
 このイベントでは、Ruby との関わりの中での生の工夫の話を聞くことができます。<br>
@@ -44,6 +30,23 @@
 * 「もっと楽しく Ruby を書きたい」
 
 という方はぜひお越しくださいませ！
+
+### 概要
+{:.no_toc}
+
+* 日時: 2014/2/8(土) 13:00 〜 18:00 (開場: 12:30)
+* 会場: [かでる2・7][] ([地図](https://maps.google.co.jp/maps?q=43.063107,141.345473&num=1&brcurrent=3,0x5f0b2997c2c14ff7:0x9db606f6a754b30b,0&t=m&z=18))
+* 参加費用: 1,000 円 (会場にてお支払いください)
+* 主催: 札幌市中央区Ruby会議01実行委員
+* 後援: [日本Rubyの会][]、[Ruby札幌][]
+* 定員: 40 名
+* 懇親会: 19:00 〜 [詳細](#party)
+* 公式ハッシュタグ: [#chuork01][]
+
+[かでる2・7]: http://homepage.kaderu27.or.jp/
+[日本Rubyの会]: http://ruby-no-kai.org/
+[Ruby札幌]: http://ruby-sapporo.org/
+[#chuork01]: https://twitter.com/search?q=%23chuork
 
 ## タイムテーブル {#timetable}
 
