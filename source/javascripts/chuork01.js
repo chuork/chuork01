@@ -11,6 +11,10 @@ jQuery(function($){
     nav_will_hide = true;
   });
 
+  if (location.hash.indexOf('#talk-') === 0) {
+    nav_will_hide = true;
+  };
+
   $(document).scroll(function(){
     scroll_top = $(this).scrollTop();
 
