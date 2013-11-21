@@ -5,7 +5,6 @@
 
 jQuery(function($){
   var nav_offset = $('#nav').offset().top;
-  var scroll_top = 0;
   var nav_will_hide = false;
 
   $('table a').click(function(){
@@ -20,8 +19,8 @@ jQuery(function($){
 
   schedule_hide_nav_only_talk();
 
-  $(document).scroll(_.debounce(function(){
-    scroll_top = $(this).scrollTop();
+  $(document).on('scroll', function() {
+    var scroll_top = $(this).scrollTop();
 
     if (nav_offset <= scroll_top) {
       $('article').addClass('adjustment');
@@ -30,7 +29,7 @@ jQuery(function($){
       $('article').removeClass('adjustment');
       $('#nav').removeClass('fixed');
     }
-
+  }).on('scroll', _.debounce(function(){
     if (nav_will_hide) {
       $('#nav').hide();
       nav_will_hide = false;
