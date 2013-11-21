@@ -1,4 +1,5 @@
 //= require ./vendor/jquery
+//= require ./vendor/underscore
 //= require mixpanel
 //= require mixpanel.key
 
@@ -11,11 +12,15 @@ jQuery(function($){
     nav_will_hide = true;
   });
 
-  if (location.hash.indexOf('#talk-') === 0) {
-    nav_will_hide = true;
+  var schedule_hide_nav_only_talk = function(){
+    if (location.hash.indexOf('#talk-') === 0) {
+      nav_will_hide = true;
+    };
   };
 
-  $(document).scroll(function(){
+  schedule_hide_nav_only_talk();
+
+  $(document).scroll(_.debounce(function(){
     scroll_top = $(this).scrollTop();
 
     if (nav_offset <= scroll_top) {
@@ -30,7 +35,7 @@ jQuery(function($){
       $('#nav').hide();
       nav_will_hide = false;
     } else {
-      $('#nav').fadeIn();
+      $('#nav').fadeIn('fast');
     }
-  });
+  }, 50));
 });
