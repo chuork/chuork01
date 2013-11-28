@@ -59,7 +59,7 @@
 |15:00|趣味プロダクト開発で楽しいコードライフワークを送る|[小玉直樹](#talk-volpe_hd28v)|
 |15:25|高架下のRuby|[横山昌史](#talk-myokoym)|
 |15:50|休憩| |
-|16:00|Ruby in Project-Based Learning|@shouheiumemoto|
+|16:00|Ruby in Project-Based Learning|[梅本祥平](#talk-shouheiumemoto)|
 |16:25|(近日公開予定)|@tmaeda|
 |16:50|休憩| |
 |17:00|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)| |
