@@ -132,6 +132,20 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 昼は金融系システムのSE、夜はフリーソフトウェアプログラマー。Ruby-GNOME2 Project Team、Ruby札幌、Sinatra札幌などに参加しています。([Twitter](https://twitter.com/myokoym))([slides](http://slide.rabbit-shocker.org/authors/myokoym/))
 {: .profile}
 
+### Ruby in Project-Based Learning - 梅本祥平
+{:.no_toc #talk-shouheiumemoto}
+
+最近は大学の授業でも、企業と同様にチームを組んでソフトウェアを作る、新しい取り組みが行われています。
+この発表では、私が大学の授業のなかでRubyを使った開発やアジャイルな開発の実現のために取り組んできたことを紹介し、
+皆さんの現場の改善に役立てられるヒントを提供できればと考えています。
+
+![shouheiumemoto](https://s.gravatar.com/avatar/42df252c20dacd91b491ad45e4c9b890.png)
+梅本祥平 ([@shouheiumemoto](https://github.com/shouheiumemoto))<br />
+
+公立はこだて未来大学に所属している学生です。
+GitHubのPull Requestを対象としたソフトウェア工学の研究を行っています。
+{: .profile}
+
 ## 懇親会について {#party}
 
 * 日時: 2014/2/8(土) 19:00 〜 21:30
