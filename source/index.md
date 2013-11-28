@@ -141,7 +141,6 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 
 ![shouheiumemoto](https://s.gravatar.com/avatar/42df252c20dacd91b491ad45e4c9b890.png)
 梅本祥平 ([@shouheiumemoto](https://github.com/shouheiumemoto))<br />
-
 公立はこだて未来大学に所属している学生です。
 GitHubのPull Requestを対象としたソフトウェア工学の研究を行っています。
 {: .profile}
