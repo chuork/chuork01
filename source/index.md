@@ -60,7 +60,7 @@
 |15:25|高架下のRuby|[横山昌史](#talk-myokoym)|
 |15:50|休憩| |
 |16:00|Ruby in Project-Based Learning|[梅本祥平](#talk-shouheiumemoto)|
-|16:25|(近日公開予定)|@tmaeda|
+|16:25|(近日公開予定)|[前田智樹](#talk-tmaeda)|
 |16:50|休憩| |
 |17:00|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)| |
 |18:00|クロージング| |
@@ -143,6 +143,18 @@ Ruby札幌所属。心はコンサドーレ札幌所属。
 梅本祥平 ([@shouheiumemoto](https://github.com/shouheiumemoto))<br />
 公立はこだて未来大学に所属している学生です。
 GitHubのPull Requestを対象としたソフトウェア工学の研究を行っています。
+{: .profile}
+
+### (近日公開予定) - 前田智樹
+{:.no_toc #talk-tmaeda}
+
+(近日公開予定)
+
+![tmaeda](http://1.gravatar.com/avatar/cb755c8075d5c9097f1ce3c70f728195.jpg)
+前田智樹 ([@tmaeda](https://speakerdeck.com/tmaedax))<br />
+株式会社えにしテック所属プログラマ。<br />
+最近触っている(触った)のはRuby/Rails, Middleman, NArray, AngularJS。<br />
+最近気になるのはOCaml, Clojure, Go, Elixir, Riak。
 {: .profile}
 
 ## 懇親会について {#party}
