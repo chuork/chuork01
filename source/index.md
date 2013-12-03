@@ -43,7 +43,7 @@
 [かでる2・7]: http://homepage.kaderu27.or.jp/
 [日本Rubyの会]: http://ruby-no-kai.org/
 [Ruby札幌]: http://ruby-sapporo.org/
-[#chuork01]: https://twitter.com/search?q=%23chuork
+[#chuork01]: https://twitter.com/search?q=%23chuork01
 
 ## タイムテーブル {#timetable}
 
