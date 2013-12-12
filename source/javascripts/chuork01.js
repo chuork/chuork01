@@ -3,15 +3,15 @@
 //= require mixpanel
 //= require mixpanel.key
 
-jQuery(function($){
+jQuery(function($) {
   var nav_offset = $('#nav').offset().top;
   var nav_will_hide = false;
 
-  $('table a').click(function(){
+  $('table a').click(function() {
     nav_will_hide = true;
   });
 
-  var schedule_hide_nav_only_talk = function(){
+  var schedule_hide_nav_only_talk = function() {
     if (location.hash.indexOf('#talk-') === 0) {
       nav_will_hide = true;
     };
@@ -29,7 +29,7 @@ jQuery(function($){
       $('article').removeClass('adjustment');
       $('#nav').removeClass('fixed');
     }
-  }).on('scroll', _.debounce(function(){
+  }).on('scroll', _.debounce(function() {
     if (nav_will_hide) {
       $('#nav').hide();
       nav_will_hide = false;
