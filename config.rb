@@ -47,6 +47,6 @@ helpers do
   end
 
   def comming_soon
-    '(近日公開予定)'
+    content_tag('i', '(近日公開予定)')
   end
 end
