@@ -1,0 +1,120 @@
+---
+-
+  id: talk-tricknotes
+  title: Rails あるある(仮)
+  abstract: |-
+    Rails には便利な機能が数多く存在しますが、使い方を間違うと逆に開発/メンテナンスしづらいものとなってしまう機能も少なくありません。
+    本発表では、私の体験をもとに Rails で開発を行なっていく中での Rails(や gem)の魅力的な機能とついついやってしまいがちな間違いを例に挙げつつ、
+    メンテナンスしやすいコードについて考えてみます。
+
+  speaker:
+    name: 佐藤竜之介
+    social_id: tricknotes
+    social_link: "https://github.com/tricknotes"
+    icon_url: "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/13508_374056796011580_1728315222_n.jpg"
+    bio: |-
+      株式会社えにしテック所属。Ruby と JavaScript が好きなプログラマ。<br/>
+      [Rails](http://rubyonrails.org/) と [Ember.js](http://emberjs.com/) が好き。<br/>
+      詳しくはこちらで: [tricknotesのぼうけんのしょ](http://tricknotes.hateblo.jp/)
+
+-
+  id: talk-niku
+  title: ひでお(仮)
+  abstract: |-
+    タイトルは「ひとりDevOps」の略です。
+
+    自分にとって使いやすいRuby開発環境を求めて色々試してみたところ、いくつか便利なツールがありました。
+    それらについてのご紹介と、その環境を皆様のお手元で簡単に利用できるようにする方法をお伝えします。
+
+  speaker:
+    name: ヽ（´・肉・｀）ノ
+    social_id: niku
+    social_link: "https://github.com/niku"
+    icon_url: "https://s.gravatar.com/avatar/a51816c3b11f79d9644a46105d513f1b.png"
+    bio: |-
+      Ruby札幌所属。心はコンサドーレ札幌所属。
+      エディタはEmacsを利用している。
+      仕事ではJVM系言語(Java,Groovy,Scala)でプログラミングしていることが多い。
+      趣味ではRubyMotionやElixir,Haskell,Ember.jsに興味があってちょっとずつ触ってみたり調べたりしている。
+      興味が薄く広く発散してしまっているので、対象を絞って知識を深めていかないとなあと考えているところ。
+
+-
+  id: talk-ursm
+  title: なるはや Ruby on Rails
+  abstract: |-
+    速さは正義です。一口にパフォーマンスチューニングといっても様々な側面がありますが、今回は実装と設計の微妙な狭間を切り口に Rails アプリケーションを「なるはや」にするための基本的な考え方をお話します。
+
+  speaker:
+    name: 浦嶌啓太
+    social_id: ursm
+    social_link: "https://github.com/ursm"
+    icon_url: "https://secure.gravatar.com/avatar/fd547c9c121704eab28251f824bc2568.png"
+    bio: |-
+      (株)永和システムマネジメント サービスプロバイディング事業部チーフプログラマ。21世紀の開発者のためのグループチャット [Idobata](https://idobata.io) のプロダクトリードを務める傍ら、リンガ泊地にて提督業に勤しんでいる。
+
+-
+  id: talk-volpe_hd28v
+  title: 趣味プロダクト開発で楽しいコードライフワークを送る
+  abstract: |-
+    私は日々の仕事でコードを書くのと同時に趣味で Ruby on Rails を使った「かんばりすと」や「コタれん」などのWebプロダクトをいくつか作ってきました。
+    理由はいろいろありますが一言で言うと「プログラミングが楽しい」からです。
+    そして自分が作ったプロダクトを使って、日々の暮らしや自分たちの仕事をほんのちょっとでも楽しくしたいとも思っています。
+
+    自分が作りたいものを好きなように作るこれら「趣味プロダクト」の作成を通して、ふつうのプログラマである私が日々コードと楽しくふれあい続けていくために行ってきたことや、その中で起こった出来事、そして日常の仕事への関わり方の変化についてお話したいと思います。
+    コードを書くのが好きで楽しくコードライフワークを送りたい方々の参考になれば幸いです。
+
+  speaker:
+    name: 小玉直樹
+    social_id: volpe28v
+    social_link: "https://github.com/volpe28v"
+    icon_url: "https://s.gravatar.com/avatar/d43ec41b7e9cbf51b42f5343ebe89ef4.png"
+    bio: |-
+      トラスティア株式会社に所属するプログラマ。
+      日々お仕事では Windows系のソフトウェア開発に携わる一方、夜な夜な「かんばんりすと」や「コタれん」などの趣味プロダクトの開発を楽しんでいます。
+      コミュニティではアジャイル札幌、Ruby勉強会、JavaScript勉強会、C++勉強会などに時々参加しています。
+
+-
+  id: talk-myokoym
+  title: 高架下のRuby
+  abstract: |-
+    私はRubyが好きで、毎晩のように使っています。ですが、Ruby on Railsはほとんど使っていません。この発表では、RubyをRuby on Railsと一緒にしか使ったことがない人を主な対象として、Rubyのいろいろな使い方を実演を交えながら紹介します。
+
+  speaker:
+    name: 横山昌史
+    social_id: myokoym
+    social_link: "https://github.com/myokoym"
+    icon_url: "http://myokoym.net/public/profile-myokoym-chuork01.jpg"
+    bio: |-
+      昼は金融系システムのSE、夜はフリーソフトウェアプログラマー。Ruby-GNOME2 Project Team、Ruby札幌、Sinatra札幌などに参加しています。([Twitter](https://twitter.com/myokoym))([slides](http://slide.rabbit-shocker.org/authors/myokoym/))
+
+-
+  id: talk-shouheiumemoto
+  title: Ruby in Project-Based Learning
+  abstract: |-
+    最近は大学の授業でも、企業と同様にチームを組んでソフトウェアを作る、新しい取り組みが行われています。
+    この発表では、私が大学の授業のなかでRubyを使った開発やアジャイルな開発の実現のために取り組んできたことを紹介し、
+    皆さんの現場の改善に役立てられるヒントを提供できればと考えています。
+
+  speaker:
+    name: 梅本祥平
+    social_id: shouheiumemoto
+    social_link: "https://github.com/shouheiumemoto"
+    icon_url: "https://s.gravatar.com/avatar/42df252c20dacd91b491ad45e4c9b890.png"
+    bio: |-
+      公立はこだて未来大学に所属している学生です。
+      GitHubのPull Requestを対象としたソフトウェア工学の研究を行っています。
+
+-
+  id: talk-tmaeda
+  title:
+  abstract:
+
+  speaker:
+    name: 前田智樹
+    social_id: tmaeda
+    social_link: "https://speakerdeck.com/tmaedax"
+    icon_url: "http://1.gravatar.com/avatar/cb755c8075d5c9097f1ce3c70f728195.jpg"
+    bio: |-
+      株式会社えにしテック所属プログラマ。<br/>
+      最近触っている(触った)のはRuby/Rails, Middleman, NArray, AngularJS。<br/>
+      最近気になるのはOCaml, Clojure, Go, Elixir, Riak。

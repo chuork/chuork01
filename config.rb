@@ -34,3 +34,19 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
 end
+
+helpers do
+  def talk_row(id)
+    talk = talk_by_id(id)
+
+    "#{talk.title || comming_soon}|[#{talk.speaker.name}](##{id})"
+  end
+
+  def talk_by_id(id)
+    data.talks.detect {|talk| talk.id == id } || raise("Missing talk: id='#{id}'")
+  end
+
+  def comming_soon
+    '(近日公開予定)'
+  end
+end
