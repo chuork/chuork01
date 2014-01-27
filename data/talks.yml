@@ -106,8 +106,9 @@
 
 -
   id: talk-tmaeda
-  title:
-  abstract:
+  title: できるNArray
+  abstract: |-
+    数値計算や研究だけでなく、ビジネスでもすぐに使えるNArrayの操作と知識をやさしく解説します。
 
   speaker:
     name: 前田智樹
