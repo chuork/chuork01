@@ -49,4 +49,13 @@ helpers do
   def comming_soon
     content_tag('i', '(近日公開予定)')
   end
+
+  def heading_with_link(tag, id, text)
+    content_tag(tag, id: id, class: 'heading') do
+      heading_link = content_tag(:span, class: 'heading-link') do
+        link_to('#', "##{id}")
+      end
+      "#{text}#{heading_link}"
+    end
+  end
 end
