@@ -53,7 +53,9 @@ helpers do
   def heading_with_link(tag, id, text)
     content_tag(tag, id: id, class: 'heading') do
       heading_link = content_tag(:span, class: 'heading-link') do
-        link_to('#', "##{id}")
+        link_to("##{id}") do
+          content_tag(:i, '', class: 'fa fa-link')
+        end
       end
       "#{text}#{heading_link}"
     end
