@@ -6,8 +6,7 @@
   %li= link_to '懇親会について', '#party'
   %li= link_to 'LT について',    '#lt'
 
-%h2#registration
-  参加登録
+= heading_with_link :h2, 'registration', '参加登録'
 
 以下の参加登録フォームよりご登録ください。
 
@@ -28,7 +27,7 @@
     %i
       (締切 2/7 13:00)
 
-%h2#abstract 開催概要
+= heading_with_link :h2, 'abstract', '開催概要'
 
 :markdown
   このイベントでは、Ruby との関わりの中での生の工夫の話を聞くことができます。<br/>
@@ -61,7 +60,7 @@
   [Ruby札幌]: http://ruby-sapporo.org/
   [#chuork01]: https://twitter.com/search?q=%23chuork01
 
-%h2#timetable タイムテーブル
+= heading_with_link :h2, 'timetable', 'タイムテーブル'
 
 :markdown
   |時間 |講演内容|講演者|
@@ -82,7 +81,7 @@
   |17:00|[LT](#lt) - [参加登録受付中](http://bit.ly/chuork01-lt)| |
   |18:00|クロージング| |
 
-%h2#talks 講演詳細
+= heading_with_link :h2, 'talks', '講演詳細'
 
 - %w(talk-tricknotes talk-niku talk-ursm talk-volpe_hd28v talk-myokoym talk-shouheiumemoto talk-tmaeda).each do |id|
   :ruby
@@ -103,7 +102,7 @@
     :markdown
       #{speaker.bio}
 
-%h2#party 懇親会について
+= heading_with_link :h2, 'party', '懇親会について'
 
 :markdown
   * 日時: 2014/2/8(土) 19:00 〜 21:30
@@ -118,7 +117,7 @@
 
   * [懇親会参加登録](http://bit.ly/chuork01-party)
 
-%h2#lt LT について
+= heading_with_link :h2, 'lt', 'LT について'
 
 :markdown
   LT ([Lightning Talk][]) とは、5分間プレゼンテーションです。<br>

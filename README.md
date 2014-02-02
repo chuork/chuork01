@@ -58,3 +58,7 @@ http://regional.rubykaigi.org/chuork01/
   1. 以下のコマンドでGitHub Pagesにデプロイ
 
         bundle exec middleman deploy
+
+## Thanks
+
+Font Awesome by Dave Gandy - [http://fontawesome.io](http://fontawesome.io)

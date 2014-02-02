@@ -30,3 +30,15 @@ a {
   padding: 20px 50px 20px 50px;
   background-color: #eedd82;
 }
+
+.heading {
+  .heading-link {
+    visibility: hidden;
+  }
+
+  &:hover {
+    .heading-link {
+      visibility: visible;
+    }
+  }
+}
