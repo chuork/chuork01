@@ -125,3 +125,55 @@
       株式会社えにしテック所属プログラマ。<br/>
       最近触っている(触った)のはRuby/Rails, Middleman, NArray, AngularJS。<br/>
       最近気になるのはOCaml, Clojure, Go, Elixir, Riak。
+
+-
+  id: lt-yabe
+  title: How to enjoy Padrino
+  slide_url: http://www.slideshare.net/tyabe/favorite-pointsofpadrino
+  speaker:
+    name: 矢部剛嗣
+
+-
+  id: lt-usami
+  title: 近況の報告と自宅警備員が失職した話
+  slide_url: http://www.slideshare.net/tadsan/ss-30970830
+  speaker:
+    name: うさみけんた
+
+-
+  id: lt-shimada
+  title: 一般社団法人日本Rubyの会のほうから来ました
+  slide_url: https://speakerdeck.com/snoozer05/all-about-ruby-no-kai
+  speaker:
+    name: 島田浩二
+
+-
+  id: lt-hayasaka
+  title: Rubyを始めてみて得たこと
+  speaker:
+    name: 早坂 亮佑
+
+-
+  id: lt-yonezawa
+  title: Sinatra x Ajax
+  speaker:
+    name: よねざわ
+
+-
+  id: lt-kobayashi
+  title: 惚れちゃうコード
+  slide_url: http://www.slideshare.net/sekaiya/rubylt
+  speaker:
+    name: 小林せかい
+
+-
+  id: lt-koiwa
+  title: 我が家を支える技術2014冬
+  speaker:
+    name: 小岩秀和
+
+-
+  id: lt-abe
+  title: Make a Fun Work 〜楽しく仕事をしよう〜
+  speaker:
+    name: 阿部智紀
