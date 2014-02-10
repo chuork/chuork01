@@ -47,8 +47,8 @@ helpers do
   end
 
   def title(talk)
-    if talk.slide
-      "[#{talk.title}](#{talk.slide})"
+    if talk.slide_url
+      "[#{talk.title}](#{talk.slide_url})"
     else
       talk.title
     end
