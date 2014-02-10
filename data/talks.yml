@@ -2,6 +2,7 @@
 -
   id: talk-tricknotes
   title: Rails あるある
+  slide: http://www.slideshare.net/tricknotes/rails-possiblestory
   abstract: |-
     Rails には便利な機能が数多く存在しますが、使い方を間違うと逆に開発/メンテナンスしづらいものとなってしまう機能も少なくありません。
     本発表では、私の体験をもとに Rails で開発を行なっていく中での Rails(や gem)の魅力的な機能とついついやってしまいがちな間違いを例に挙げつつ、
@@ -20,6 +21,7 @@
 -
   id: talk-niku
   title: ひでお(仮)
+  slide: http://slide.rabbit-shocker.org/authors/niku/hideo-at-sapporo-chuork01/
   abstract: |-
     タイトルは「ひとりDevOps」の略です。
 
@@ -55,6 +57,7 @@
 -
   id: talk-volpe_hd28v
   title: 趣味プロダクト開発で楽しいコードライフワークを送る
+  slide: http://www.slideshare.net/volpe_hd28v/ss-30978251
   abstract: |-
     私は日々の仕事でコードを書くのと同時に趣味で Ruby on Rails を使った「かんばりすと」や「コタれん」などのWebプロダクトをいくつか作ってきました。
     理由はいろいろありますが一言で言うと「プログラミングが楽しい」からです。
@@ -76,6 +79,7 @@
 -
   id: talk-myokoym
   title: 高架下のRuby
+  slide: http://slide.rabbit-shocker.org/authors/myokoym/chuork01/
   abstract: |-
     私はRubyが好きで、毎晩のように使っています。ですが、Ruby on Railsはほとんど使っていません。この発表では、RubyをRuby on Railsと一緒にしか使ったことがない人を主な対象として、Rubyのいろいろな使い方を実演を交えながら紹介します。
 
@@ -90,6 +94,7 @@
 -
   id: talk-shouheiumemoto
   title: Ruby in Project-Based Learning
+  slide: https://speakerdeck.com/shouheiumemoto/ruby-in-project-based-learning
   abstract: |-
     最近は大学の授業でも、企業と同様にチームを組んでソフトウェアを作る、新しい取り組みが行われています。
     この発表では、私が大学の授業のなかでRubyを使った開発やアジャイルな開発の実現のために取り組んできたことを紹介し、
@@ -107,6 +112,7 @@
 -
   id: talk-tmaeda
   title: それNArrayでできるよ
+  slide: https://speakerdeck.com/tmaedax/sore-narray-dedekiruyo
   abstract: |-
     数値計算や研究だけでなく、ビジネスでもすぐに使えるNArrayの操作と知識をやさしく解説します。
 

@@ -39,11 +39,19 @@ helpers do
   def talk_row(id)
     talk = talk_by_id(id)
 
-    "#{talk.title || comming_soon}|[#{talk.speaker.name}](##{id})"
+    "#{title(talk) || comming_soon}|[#{talk.speaker.name}](##{id})"
   end
 
   def talk_by_id(id)
     data.talks.detect {|talk| talk.id == id } || raise("Missing talk: id='#{id}'")
+  end
+
+  def title(talk)
+    if talk.slide
+      "[#{talk.title}](#{talk.slide})"
+    else
+      talk.title
+    end
   end
 
   def comming_soon
