@@ -43,6 +43,7 @@
 -
   id: talk-ursm
   title: なるはや Ruby on Rails
+  slide_url: "https://docs.google.com/presentation/d/1ccgvApLkeScQ5GDSIiq31Ij5hL1oFbvU-RNFdi4eSY0/edit"
   abstract: |-
     速さは正義です。一口にパフォーマンスチューニングといっても様々な側面がありますが、今回は実装と設計の微妙な狭間を切り口に Rails アプリケーションを「なるはや」にするための基本的な考え方をお話します。
 
