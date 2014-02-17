@@ -77,7 +77,7 @@
     speaker = talk.speaker
 
   %h3{id: id}
-    #{talk.title || comming_soon} - #{speaker.name}
+    #{talk_title(talk, with_name: true)}
 
   :markdown
     #{talk.abstract || comming_soon}

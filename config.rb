@@ -39,25 +39,24 @@ helpers do
   def talk_row(id)
     talk = talk_by_id(id)
 
-    "#{title(talk) || comming_soon}|[#{talk.speaker.name}](##{id})"
+    "#{talk_title(talk) || comming_soon}|[#{talk.speaker.name}](##{id})"
   end
 
   def lt_row(id)
     talk = talk_by_id(id)
 
-    "#{talk.speaker.name}|#{title(talk) || comming_soon}"
+    "#{talk.speaker.name}|#{talk_title(talk) || comming_soon}"
   end
 
   def talk_by_id(id)
     data.talks.detect {|talk| talk.id == id } || raise("Missing talk: id='#{id}'")
   end
 
-  def title(talk)
-    if talk.slide_url
-      "[#{talk.title}](#{talk.slide_url})"
-    else
-      talk.title
-    end
+  def talk_title(talk, with_name: false)
+    title = [talk.title]
+    title << ' - ' << talk.speaker.name if with_name
+    title << ' ' << link_to('(資料)', talk.slide_url, target: '_blank') if talk.slide_url
+    title.join
   end
 
   def comming_soon
