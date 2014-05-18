@@ -3,6 +3,6 @@ folder 'source/stylesheets/vendor/' do
 end
 
 folder 'source/javascripts/vendor/' do
-  file 'jquery.js', 'http://code.jquery.com/jquery-2.0.3.js'
+  file 'jquery.js', 'http://code.jquery.com/jquery-2.1.1.js'
   file 'underscore.js', 'http://underscorejs.org/underscore.js'
 end
