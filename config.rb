@@ -56,6 +56,7 @@ helpers do
     title = [talk.title]
     title << ' - ' << talk.speaker.name if with_name
     title << ' ' << link_to('(資料)', talk.slide_url, target: '_blank') if talk.slide_url
+    title << ' ' << link_to('(動画)', talk.movie_url, target: '_blank') if talk.movie_url
     title.join
   end
 
