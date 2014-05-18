@@ -80,7 +80,7 @@
     #{talk_title(talk, with_name: true)}
 
   :markdown
-    #{talk.abstract || comming_soon}
+    #{talk.abstract}
 
   .profile
     = image_tag speaker.icon_url, alt: speaker.social_id

@@ -39,13 +39,13 @@ helpers do
   def talk_row(id)
     talk = talk_by_id(id)
 
-    "#{talk_title(talk) || comming_soon}|[#{talk.speaker.name}](##{id})"
+    "#{talk_title(talk)}|[#{talk.speaker.name}](##{id})"
   end
 
   def lt_row(id)
     talk = talk_by_id(id)
 
-    "#{talk.speaker.name}|#{talk_title(talk) || comming_soon}"
+    "#{talk.speaker.name}|#{talk_title(talk)}"
   end
 
   def talk_by_id(id)
@@ -57,10 +57,6 @@ helpers do
     title << ' - ' << talk.speaker.name if with_name
     title << ' ' << link_to('(資料)', talk.slide_url, target: '_blank') if talk.slide_url
     title.join
-  end
-
-  def comming_soon
-    content_tag('i', '(近日公開予定)')
   end
 
   def heading_with_link(tag, id, text)
