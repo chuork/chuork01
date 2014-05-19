@@ -124,6 +124,10 @@
 
   [Lightning Talk]: http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF
 
+%ul
+  - data.lt_movies.each do |movie|
+    %li= link_to movie.title, movie.url, target: '_blank'
+
 %h2 お問い合わせ
 
 札幌市中央区Ruby会議01に関するお問い合せは tricknotes.rs _at_ gmail.com (佐藤)までメールにてご連絡ください。
